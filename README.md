@@ -95,8 +95,6 @@ We evaluate algorithms via empirical competitive ratios against optimal solution
 3. Follow the notebook instructions to analyze the dataset and run benchmark tasks.
 
 
-## License
-Specify the license for your dataset and benchmark here.
 
 ## Contact
 For questions or contributions, please contact the dataset authors or open an issue in the repository.
