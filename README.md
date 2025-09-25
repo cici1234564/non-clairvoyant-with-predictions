@@ -5,7 +5,7 @@ The ATLAS dataset is built on the publicly available Alibaba PAI--2020 GPU-clust
 
 ## Dataset Download and Usage
 To use the ATLAS dataset and benchmark:
-1. Download the following three files (provide links or filenames here).
+1. Download the following three files.
 2. Open and run the `Dataset_demonstration.ipynb` notebook to explore and analyze the dataset.
 
 ## Dataset Description
