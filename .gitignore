@@ -9,3 +9,6 @@ pathb/cache/
 # Python bytecode
 __pycache__/
 *.pyc
+
+# Task 2 regenerable feature cache (rebuild with pathb/improve/features_cs.py)
+pathb/improve/cache/

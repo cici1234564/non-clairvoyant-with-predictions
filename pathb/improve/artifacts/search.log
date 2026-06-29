@@ -1,0 +1,232 @@
+[val split] es=65,912 (early-stop+calib)  sel=43,942 (held-out selection)
+[val_sel pops] cold(==0)=16,967 seen(>=1)=26,975
+[  0]     27s score= 13.39  cold25=13.39 seen25=40.30 all25=29.91 all_rmsle=1.243 | obj=l2 cal=iso_segmult nl=127 grp=3 | BEST cold25=13.39
+[  1]     61s score= 13.61  cold25=13.61 seen25=40.86 all25=30.34 all_rmsle=1.279 | obj=quantile cal=iso_segmult nl=63 grp=3 | BEST cold25=13.61
+[  2]     93s score= 12.86  cold25=12.86 seen25=35.17 all25=26.55 all_rmsle=1.249 | obj=l2 cal=iso nl=255 grp=3 | BEST cold25=13.61
+[  3]    101s score= 11.81  cold25=11.81 seen25=34.99 all25=26.04 all_rmsle=1.310 | obj=l2 cal=none nl=63 grp=1 | BEST cold25=13.61
+[  4]    105s score= 10.68  cold25=10.68 seen25=37.86 all25=27.36 all_rmsle=1.358 | obj=huber cal=none nl=31 grp=1 | BEST cold25=13.61
+[  5]    164s score= 13.74  cold25=13.74 seen25=45.22 all25=33.07 all_rmsle=1.283 | obj=huber cal=segmult nl=255 grp=3 | BEST cold25=13.74
+[  6]    194s score= 12.94  cold25=12.94 seen25=35.24 all25=26.63 all_rmsle=1.244 | obj=l2 cal=iso nl=255 grp=2 | BEST cold25=13.74
+[  7]    200s score= 14.30  cold25=14.30 seen25=41.61 all25=31.06 all_rmsle=1.350 | obj=huber cal=segmult nl=31 grp=1 | BEST cold25=14.30
+[  8]    238s score=-88.27  cold25=11.73 seen25=34.91 all25=25.96 all_rmsle=1.244 | obj=l2 cal=iso nl=31 grp=2 | BEST cold25=14.30
+[  9]    280s score= 14.26  cold25=14.26 seen25=42.14 all25=31.38 all_rmsle=1.317 | obj=quantile cal=iso_segmult nl=31 grp=3 | BEST cold25=14.30
+[ 10]    295s score= 12.69  cold25=12.69 seen25=38.02 all25=28.24 all_rmsle=1.314 | obj=quantile cal=iso_segmult nl=127 grp=1 | BEST cold25=14.30
+[ 11]    324s score=-87.85  cold25=12.15 seen25=33.68 all25=25.36 all_rmsle=1.278 | obj=l2 cal=iso nl=63 grp=1 | BEST cold25=14.30
+[ 12]    330s score=-87.66  cold25=12.34 seen25=32.08 all25=24.45 all_rmsle=1.293 | obj=l2 cal=iso nl=127 grp=1 | BEST cold25=14.30
+[ 13]    366s score= 15.62  cold25=15.62 seen25=45.09 all25=33.71 all_rmsle=1.353 | obj=huber cal=segmult nl=127 grp=3 | BEST cold25=15.62
+[ 14]    386s score= 12.79  cold25=12.79 seen25=41.41 all25=30.36 all_rmsle=1.343 | obj=quantile cal=segmult nl=31 grp=1 | BEST cold25=15.62
+[ 15]    449s score= 11.32  cold25=11.32 seen25=40.47 all25=29.22 all_rmsle=1.252 | obj=l2 cal=iso_segmult nl=127 grp=2 | BEST cold25=15.62
+[ 16]    488s score= 12.34  cold25=12.34 seen25=39.62 all25=29.09 all_rmsle=1.306 | obj=huber cal=iso_segmult nl=63 grp=1 | BEST cold25=15.62
+[ 17]    506s score= 11.45  cold25=11.45 seen25=35.25 all25=26.06 all_rmsle=1.269 | obj=l2 cal=none nl=63 grp=2 | BEST cold25=15.62
+[ 18]    520s score= 11.81  cold25=11.81 seen25=36.79 all25=27.14 all_rmsle=1.332 | obj=l2 cal=iso nl=127 grp=3 | BEST cold25=15.62
+[ 19]    577s score= 13.31  cold25=13.31 seen25=40.86 all25=30.22 all_rmsle=1.290 | obj=huber cal=iso_segmult nl=255 grp=2 | BEST cold25=15.62
+[ 20]    603s score= 15.28  cold25=15.28 seen25=38.75 all25=29.69 all_rmsle=1.293 | obj=quantile cal=none nl=127 grp=1 | BEST cold25=15.62
+[ 21]    634s score= 12.08  cold25=12.08 seen25=40.09 all25=29.27 all_rmsle=1.338 | obj=l2 cal=iso_segmult nl=63 grp=3 | BEST cold25=15.62
+[ 22]    657s score= 14.76  cold25=14.76 seen25=48.23 all25=35.30 all_rmsle=1.299 | obj=quantile cal=segmult nl=63 grp=3 | BEST cold25=15.62
+[ 23]    662s score= 14.77  cold25=14.77 seen25=36.30 all25=27.98 all_rmsle=1.370 | obj=huber cal=none nl=31 grp=1 | BEST cold25=15.62
+[ 24]    676s score= 13.18  cold25=13.18 seen25=39.16 all25=29.13 all_rmsle=1.302 | obj=l2 cal=segmult nl=31 grp=3 | BEST cold25=15.62
+[ 25]    690s score= 11.01  cold25=11.01 seen25=35.77 all25=26.21 all_rmsle=1.266 | obj=l2 cal=none nl=255 grp=3 | BEST cold25=15.62
+[ 26]    707s score= 13.44  cold25=13.44 seen25=40.96 all25=30.34 all_rmsle=1.307 | obj=l2 cal=segmult nl=63 grp=3 | BEST cold25=15.62
+[ 27]    768s score= 12.91  cold25=12.91 seen25=36.77 all25=27.56 all_rmsle=1.310 | obj=quantile cal=iso nl=255 grp=3 | BEST cold25=15.62
+[ 28]    821s score= 12.70  cold25=12.70 seen25=40.33 all25=29.66 all_rmsle=1.303 | obj=huber cal=none nl=31 grp=3 | BEST cold25=15.62
+[ 29]    854s score= 14.72  cold25=14.72 seen25=38.22 all25=29.15 all_rmsle=1.319 | obj=huber cal=none nl=31 grp=1 | BEST cold25=15.62
+[ 30]    888s score= 15.05  cold25=15.05 seen25=40.83 all25=30.87 all_rmsle=1.346 | obj=huber cal=iso_segmult nl=31 grp=3 | BEST cold25=15.62
+[ 31]    927s score= 12.73  cold25=12.73 seen25=37.29 all25=27.80 all_rmsle=1.290 | obj=l2 cal=none nl=127 grp=2 | BEST cold25=15.62
+[ 32]    940s score= 12.35  cold25=12.35 seen25=35.23 all25=26.39 all_rmsle=1.290 | obj=l2 cal=iso nl=31 grp=2 | BEST cold25=15.62
+[ 33]    963s score= 12.61  cold25=12.61 seen25=40.74 all25=29.88 all_rmsle=1.306 | obj=huber cal=none nl=127 grp=3 | BEST cold25=15.62
+[ 34]    998s score= 14.06  cold25=14.06 seen25=36.10 all25=27.59 all_rmsle=1.264 | obj=huber cal=iso nl=127 grp=1 | BEST cold25=15.62
+[ 35]   1012s score= 14.07  cold25=14.07 seen25=41.11 all25=30.67 all_rmsle=1.242 | obj=l2 cal=segmult nl=127 grp=2 | BEST cold25=15.62
+[ 36]   1033s score= 13.37  cold25=13.37 seen25=42.74 all25=31.40 all_rmsle=1.309 | obj=huber cal=segmult nl=31 grp=1 | BEST cold25=15.62
+[ 37]   1060s score= 12.34  cold25=12.34 seen25=35.72 all25=26.69 all_rmsle=1.321 | obj=quantile cal=iso nl=31 grp=3 | BEST cold25=15.62
+[ 38]   1104s score= 14.26  cold25=14.26 seen25=44.24 all25=32.66 all_rmsle=1.269 | obj=huber cal=segmult nl=127 grp=1 | BEST cold25=15.62
+[ 39]   1147s score= 12.36  cold25=12.36 seen25=35.54 all25=26.59 all_rmsle=1.284 | obj=quantile cal=iso nl=63 grp=2 | BEST cold25=15.62
+[ 40]   1179s score= 13.76  cold25=13.76 seen25=38.72 all25=29.08 all_rmsle=1.303 | obj=quantile cal=iso_segmult nl=63 grp=3 | BEST cold25=15.62
+[ 41]   1187s score= 11.88  cold25=11.88 seen25=38.54 all25=28.25 all_rmsle=1.315 | obj=quantile cal=iso_segmult nl=63 grp=1 | BEST cold25=15.62
+[ 42]   1211s score= 14.68  cold25=14.68 seen25=33.48 all25=26.22 all_rmsle=1.298 | obj=l2 cal=none nl=255 grp=1 | BEST cold25=15.62
+[ 43]   1237s score= 13.84  cold25=13.84 seen25=40.52 all25=30.22 all_rmsle=1.318 | obj=quantile cal=none nl=255 grp=1 | BEST cold25=15.62
+[ 44]   1247s score= 14.45  cold25=14.45 seen25=39.98 all25=30.12 all_rmsle=1.258 | obj=l2 cal=iso_segmult nl=255 grp=1 | BEST cold25=15.62
+[ 45]   1272s score= 12.86  cold25=12.86 seen25=40.44 all25=29.79 all_rmsle=1.321 | obj=quantile cal=iso_segmult nl=127 grp=1 | BEST cold25=15.62
+[ 46]   1287s score= 11.65  cold25=11.65 seen25=40.40 all25=29.30 all_rmsle=1.292 | obj=huber cal=none nl=63 grp=2 | BEST cold25=15.62
+[ 47]   1335s score= 13.07  cold25=13.07 seen25=34.80 all25=26.41 all_rmsle=1.308 | obj=quantile cal=iso nl=127 grp=1 | BEST cold25=15.62
+[ 48]   1368s score= 13.95  cold25=13.95 seen25=38.37 all25=28.94 all_rmsle=1.283 | obj=huber cal=iso_segmult nl=255 grp=3 | BEST cold25=15.62
+[ 49]   1387s score= 11.98  cold25=11.98 seen25=35.98 all25=26.71 all_rmsle=1.321 | obj=quantile cal=iso nl=63 grp=1 | BEST cold25=15.62
+[ 50]   1410s score=-85.75  cold25=14.25 seen25=31.36 all25=24.75 all_rmsle=1.262 | obj=l2 cal=iso nl=255 grp=1 | BEST cold25=15.62
+[ 51]   1430s score= 13.84  cold25=13.84 seen25=40.46 all25=30.18 all_rmsle=1.215 | obj=huber cal=iso_segmult nl=255 grp=2 | BEST cold25=15.62
+[ 52]   1464s score= 13.56  cold25=13.56 seen25=37.20 all25=28.07 all_rmsle=1.286 | obj=l2 cal=iso_segmult nl=255 grp=1 | BEST cold25=15.62
+[ 53]   1494s score= 13.06  cold25=13.06 seen25=40.13 all25=29.68 all_rmsle=1.291 | obj=quantile cal=iso_segmult nl=255 grp=1 | BEST cold25=15.62
+[ 54]   1516s score= 11.24  cold25=11.24 seen25=45.18 all25=32.07 all_rmsle=1.321 | obj=quantile cal=segmult nl=31 grp=2 | BEST cold25=15.62
+[ 55]   1583s score= 14.68  cold25=14.68 seen25=42.58 all25=31.80 all_rmsle=1.284 | obj=quantile cal=none nl=255 grp=2 | BEST cold25=15.62
+[ 56]   1612s score= 14.10  cold25=14.10 seen25=45.63 all25=33.45 all_rmsle=1.327 | obj=quantile cal=segmult nl=127 grp=2 | BEST cold25=15.62
+[ 57]   1632s score= 12.47  cold25=12.47 seen25=34.57 all25=26.04 all_rmsle=1.305 | obj=l2 cal=none nl=31 grp=2 | BEST cold25=15.62
+[ 58]   1651s score= 14.09  cold25=14.09 seen25=44.71 all25=32.89 all_rmsle=1.310 | obj=quantile cal=segmult nl=31 grp=2 | BEST cold25=15.62
+[ 59]   1664s score= 11.81  cold25=11.81 seen25=39.84 all25=29.02 all_rmsle=1.291 | obj=l2 cal=segmult nl=63 grp=3 | BEST cold25=15.62
+[ 60]   1669s score=-87.26  cold25=12.74 seen25=31.76 all25=24.41 all_rmsle=1.352 | obj=l2 cal=none nl=31 grp=1 | BEST cold25=15.62
+[ 61]   1725s score= 13.41  cold25=13.41 seen25=40.25 all25=29.89 all_rmsle=1.307 | obj=huber cal=iso_segmult nl=63 grp=2 | BEST cold25=15.62
+[ 62]   1758s score= 13.50  cold25=13.50 seen25=37.38 all25=28.16 all_rmsle=1.250 | obj=l2 cal=none nl=63 grp=2 | BEST cold25=15.62
+[ 63]   1779s score= 12.97  cold25=12.97 seen25=35.62 all25=26.87 all_rmsle=1.280 | obj=huber cal=none nl=255 grp=1 | BEST cold25=15.62
+[ 64]   1788s score= 13.36  cold25=13.36 seen25=37.96 all25=28.46 all_rmsle=1.390 | obj=l2 cal=segmult nl=31 grp=2 | BEST cold25=15.62
+[ 65]   1823s score= 14.13  cold25=14.13 seen25=37.17 all25=28.28 all_rmsle=1.332 | obj=huber cal=iso_segmult nl=31 grp=1 | BEST cold25=15.62
+[ 66]   1860s score= 13.26  cold25=13.26 seen25=40.03 all25=29.69 all_rmsle=1.281 | obj=l2 cal=iso_segmult nl=255 grp=2 | BEST cold25=15.62
+[ 67]   1891s score= 12.75  cold25=12.75 seen25=41.57 all25=30.44 all_rmsle=1.385 | obj=quantile cal=iso_segmult nl=63 grp=3 | BEST cold25=15.62
+[ 68]   1927s score= 13.87  cold25=13.87 seen25=36.12 all25=27.53 all_rmsle=1.231 | obj=huber cal=iso nl=255 grp=3 | BEST cold25=15.62
+[ 69]   1950s score= 12.97  cold25=12.97 seen25=36.46 all25=27.39 all_rmsle=1.266 | obj=l2 cal=none nl=63 grp=2 | BEST cold25=15.62
+[ 70]   2009s score= 13.93  cold25=13.93 seen25=41.20 all25=30.67 all_rmsle=1.293 | obj=quantile cal=iso_segmult nl=63 grp=2 | BEST cold25=15.62
+[ 71]   2025s score= 13.59  cold25=13.59 seen25=38.72 all25=29.02 all_rmsle=1.281 | obj=l2 cal=iso nl=255 grp=3 | BEST cold25=15.62
+[ 72]   2067s score= 12.35  cold25=12.35 seen25=38.90 all25=28.65 all_rmsle=1.297 | obj=quantile cal=iso nl=63 grp=2 | BEST cold25=15.62
+[ 73]   2081s score= 11.68  cold25=11.68 seen25=40.03 all25=29.09 all_rmsle=1.327 | obj=l2 cal=iso_segmult nl=63 grp=1 | BEST cold25=15.62
+[ 74]   2145s score= 13.08  cold25=13.08 seen25=40.56 all25=29.95 all_rmsle=1.354 | obj=quantile cal=iso_segmult nl=63 grp=3 | BEST cold25=15.62
+[ 75]   2185s score= 12.98  cold25=12.98 seen25=39.56 all25=29.30 all_rmsle=1.273 | obj=huber cal=none nl=31 grp=3 | BEST cold25=15.62
+[ 76]   2233s score= 13.01  cold25=13.01 seen25=44.95 all25=32.61 all_rmsle=1.289 | obj=huber cal=segmult nl=63 grp=2 | BEST cold25=15.62
+[ 77]   2270s score= 13.13  cold25=13.13 seen25=35.33 all25=26.76 all_rmsle=1.264 | obj=huber cal=iso nl=255 grp=2 | BEST cold25=15.62
+[ 78]   2311s score= 12.55  cold25=12.55 seen25=43.86 all25=31.77 all_rmsle=1.344 | obj=quantile cal=segmult nl=31 grp=1 | BEST cold25=15.62
+[ 79]   2375s score= 14.54  cold25=14.54 seen25=34.16 all25=26.58 all_rmsle=1.224 | obj=huber cal=iso nl=255 grp=2 | BEST cold25=15.62
+[ 80]   2418s score= 12.78  cold25=12.78 seen25=36.08 all25=27.08 all_rmsle=1.273 | obj=l2 cal=none nl=63 grp=3 | BEST cold25=15.62
+[ 81]   2428s score= 11.55  cold25=11.55 seen25=37.76 all25=27.64 all_rmsle=1.311 | obj=huber cal=iso_segmult nl=127 grp=1 | BEST cold25=15.62
+[ 82]   2456s score= 13.61  cold25=13.61 seen25=37.69 all25=28.40 all_rmsle=1.298 | obj=quantile cal=iso_segmult nl=255 grp=1 | BEST cold25=15.62
+[ 83]   2471s score= 12.15  cold25=12.15 seen25=39.66 all25=29.04 all_rmsle=1.296 | obj=l2 cal=segmult nl=127 grp=1 | BEST cold25=15.62
+[ 84]   2541s score= 14.48  cold25=14.48 seen25=48.55 all25=35.39 all_rmsle=1.258 | obj=quantile cal=segmult nl=255 grp=2 | BEST cold25=15.62
+[ 85]   2586s score= 13.94  cold25=13.94 seen25=41.55 all25=30.89 all_rmsle=1.253 | obj=huber cal=none nl=127 grp=2 | BEST cold25=15.62
+[ 86]   2631s score= 14.07  cold25=14.07 seen25=44.67 all25=32.86 all_rmsle=1.294 | obj=quantile cal=none nl=31 grp=3 | BEST cold25=15.62
+[ 87]   2682s score=-86.77  cold25=13.23 seen25=32.54 all25=25.09 all_rmsle=1.265 | obj=huber cal=iso nl=127 grp=2 | BEST cold25=15.62
+[ 88]   2750s score= 13.51  cold25=13.51 seen25=38.76 all25=29.01 all_rmsle=1.288 | obj=huber cal=none nl=255 grp=1 | BEST cold25=15.62
+[ 89]   2784s score= 12.39  cold25=12.39 seen25=41.75 all25=30.42 all_rmsle=1.255 | obj=huber cal=iso_segmult nl=255 grp=1 | BEST cold25=15.62
+[ 90]   2810s score= 14.62  cold25=14.62 seen25=34.92 all25=27.08 all_rmsle=1.268 | obj=l2 cal=iso nl=127 grp=3 | BEST cold25=15.62
+[ 91]   2845s score= 13.04  cold25=13.04 seen25=46.40 all25=33.52 all_rmsle=1.253 | obj=huber cal=segmult nl=127 grp=3 | BEST cold25=15.62
+[ 92]   2875s score=-87.36  cold25=12.64 seen25=33.44 all25=25.41 all_rmsle=1.294 | obj=l2 cal=iso nl=255 grp=1 | BEST cold25=15.62
+[ 93]   2901s score=-86.04  cold25=13.96 seen25=32.29 all25=25.21 all_rmsle=1.228 | obj=huber cal=iso nl=255 grp=2 | BEST cold25=15.62
+[ 94]   2918s score= 16.11  cold25=16.11 seen25=44.94 all25=33.81 all_rmsle=1.346 | obj=huber cal=segmult nl=31 grp=3 | BEST cold25=16.11
+[ 95]   2940s score= 12.95  cold25=12.95 seen25=41.65 all25=30.57 all_rmsle=1.270 | obj=huber cal=segmult nl=63 grp=1 | BEST cold25=16.11
+[ 96]   2965s score= 12.10  cold25=12.10 seen25=40.52 all25=29.55 all_rmsle=1.284 | obj=huber cal=none nl=31 grp=3 | BEST cold25=16.11
+[ 97]   2975s score= 13.78  cold25=13.78 seen25=40.47 all25=30.16 all_rmsle=1.308 | obj=l2 cal=iso_segmult nl=127 grp=3 | BEST cold25=16.11
+[ 98]   2983s score= 13.31  cold25=13.31 seen25=34.82 all25=26.51 all_rmsle=1.344 | obj=l2 cal=segmult nl=31 grp=1 | BEST cold25=16.11
+[ 99]   3040s score= 12.33  cold25=12.33 seen25=37.92 all25=28.04 all_rmsle=1.295 | obj=huber cal=iso nl=63 grp=3 | BEST cold25=16.11
+[100]   3094s score= 13.24  cold25=13.24 seen25=37.29 all25=28.00 all_rmsle=1.276 | obj=huber cal=iso nl=255 grp=3 | BEST cold25=16.11
+[101]   3160s score= 14.18  cold25=14.18 seen25=36.65 all25=27.97 all_rmsle=1.274 | obj=quantile cal=iso nl=255 grp=2 | BEST cold25=16.11
+[102]   3203s score= 14.56  cold25=14.56 seen25=41.08 all25=30.84 all_rmsle=1.242 | obj=l2 cal=segmult nl=255 grp=2 | BEST cold25=16.11
+[103]   3228s score= 13.24  cold25=13.24 seen25=40.38 all25=29.90 all_rmsle=1.337 | obj=huber cal=iso_segmult nl=31 grp=3 | BEST cold25=16.11
+[104]   3287s score= 13.03  cold25=13.03 seen25=47.29 all25=34.06 all_rmsle=1.414 | obj=quantile cal=segmult nl=63 grp=3 | BEST cold25=16.11
+[105]   3316s score= 12.78  cold25=12.78 seen25=40.67 all25=29.91 all_rmsle=1.327 | obj=l2 cal=iso_segmult nl=127 grp=1 | BEST cold25=16.11
+[106]   3344s score= 13.82  cold25=13.82 seen25=37.83 all25=28.56 all_rmsle=1.228 | obj=l2 cal=iso nl=127 grp=3 | BEST cold25=16.11
+[107]   3439s score= 14.49  cold25=14.49 seen25=39.83 all25=30.05 all_rmsle=1.301 | obj=quantile cal=iso_segmult nl=255 grp=1 | BEST cold25=16.11
+[108]   3461s score= 14.50  cold25=14.50 seen25=36.99 all25=28.31 all_rmsle=1.283 | obj=l2 cal=iso_segmult nl=127 grp=1 | BEST cold25=16.11
+[109]   3478s score= 12.63  cold25=12.63 seen25=37.08 all25=27.64 all_rmsle=1.249 | obj=l2 cal=none nl=63 grp=3 | BEST cold25=16.11
+[110]   3525s score= 15.38  cold25=15.38 seen25=45.24 all25=33.71 all_rmsle=1.295 | obj=quantile cal=segmult nl=127 grp=1 | BEST cold25=16.11
+[111]   3543s score= 12.80  cold25=12.80 seen25=40.30 all25=29.68 all_rmsle=1.292 | obj=huber cal=iso_segmult nl=63 grp=3 | BEST cold25=16.11
+[112]   3644s score= 15.38  cold25=15.38 seen25=40.15 all25=30.59 all_rmsle=1.236 | obj=quantile cal=iso_segmult nl=255 grp=3 | BEST cold25=16.11
+[113]   3650s score=-89.84  cold25=10.16 seen25=32.50 all25=23.87 all_rmsle=1.336 | obj=l2 cal=iso nl=31 grp=1 | BEST cold25=16.11
+[114]   3656s score= 14.20  cold25=14.20 seen25=33.89 all25=26.29 all_rmsle=1.315 | obj=l2 cal=none nl=63 grp=2 | BEST cold25=16.11
+[115]   3667s score= 13.49  cold25=13.49 seen25=41.37 all25=30.60 all_rmsle=1.240 | obj=l2 cal=iso_segmult nl=63 grp=3 | BEST cold25=16.11
+[116]   3718s score= 14.18  cold25=14.18 seen25=40.28 all25=30.20 all_rmsle=1.237 | obj=huber cal=none nl=127 grp=2 | BEST cold25=16.11
+[117]   3733s score= 14.09  cold25=14.09 seen25=41.81 all25=31.10 all_rmsle=1.241 | obj=huber cal=iso_segmult nl=255 grp=2 | BEST cold25=16.11
+[118]   3767s score=-86.41  cold25=13.59 seen25=33.27 all25=25.67 all_rmsle=1.251 | obj=l2 cal=none nl=31 grp=2 | BEST cold25=16.11
+[119]   3845s score= 13.96  cold25=13.96 seen25=47.31 all25=34.43 all_rmsle=1.386 | obj=quantile cal=segmult nl=63 grp=3 | BEST cold25=16.11
+[120]   3867s score= 15.54  cold25=15.54 seen25=45.89 all25=34.17 all_rmsle=1.326 | obj=quantile cal=segmult nl=31 grp=2 | BEST cold25=16.11
+[121]   3918s score= 14.39  cold25=14.39 seen25=45.28 all25=33.35 all_rmsle=1.266 | obj=huber cal=segmult nl=255 grp=3 | BEST cold25=16.11
+[122]   3929s score= 13.49  cold25=13.49 seen25=35.74 all25=27.15 all_rmsle=1.321 | obj=huber cal=iso_segmult nl=31 grp=1 | BEST cold25=16.11
+[123]   3949s score= 12.55  cold25=12.55 seen25=41.86 all25=30.54 all_rmsle=1.340 | obj=quantile cal=none nl=31 grp=1 | BEST cold25=16.11
+[124]   3955s score= 12.14  cold25=12.14 seen25=36.64 all25=27.18 all_rmsle=1.291 | obj=l2 cal=iso_segmult nl=63 grp=1 | BEST cold25=16.11
+[125]   3974s score= 11.96  cold25=11.96 seen25=38.66 all25=28.35 all_rmsle=1.350 | obj=l2 cal=iso_segmult nl=63 grp=1 | BEST cold25=16.11
+[126]   3985s score=-88.13  cold25=11.87 seen25=34.05 all25=25.48 all_rmsle=1.269 | obj=l2 cal=none nl=127 grp=3 | BEST cold25=16.11
+[127]   4003s score= 13.85  cold25=13.85 seen25=38.26 all25=28.83 all_rmsle=1.327 | obj=huber cal=iso_segmult nl=63 grp=1 | BEST cold25=16.11
+[128]   4044s score= 12.52  cold25=12.52 seen25=45.52 all25=32.78 all_rmsle=1.322 | obj=quantile cal=segmult nl=31 grp=2 | BEST cold25=16.11
+[129]   4079s score= 13.42  cold25=13.42 seen25=39.81 all25=29.62 all_rmsle=1.281 | obj=l2 cal=iso_segmult nl=255 grp=1 | BEST cold25=16.11
+[130]   4104s score=-86.39  cold25=13.61 seen25=32.42 all25=25.16 all_rmsle=1.253 | obj=l2 cal=iso nl=255 grp=2 | BEST cold25=16.11
+[131]   4150s score= 12.81  cold25=12.81 seen25=45.04 all25=32.60 all_rmsle=1.235 | obj=huber cal=segmult nl=63 grp=3 | BEST cold25=16.11
+[132]   4181s score= 14.40  cold25=14.40 seen25=40.42 all25=30.37 all_rmsle=1.250 | obj=huber cal=none nl=63 grp=2 | BEST cold25=16.11
+[133]   4233s score= 12.95  cold25=12.95 seen25=44.59 all25=32.37 all_rmsle=1.334 | obj=quantile cal=none nl=31 grp=2 | BEST cold25=16.11
+[134]   4263s score=-87.76  cold25=12.24 seen25=34.58 all25=25.95 all_rmsle=1.262 | obj=l2 cal=iso nl=31 grp=2 | BEST cold25=16.11
+[135]   4304s score=-88.37  cold25=11.63 seen25=33.58 all25=25.11 all_rmsle=1.293 | obj=l2 cal=none nl=255 grp=1 | BEST cold25=16.11
+[136]   4337s score=-88.65  cold25=11.35 seen25=34.69 all25=25.68 all_rmsle=1.279 | obj=l2 cal=iso nl=31 grp=2 | BEST cold25=16.11
+[137]   4358s score= 14.86  cold25=14.86 seen25=44.13 all25=32.83 all_rmsle=1.314 | obj=quantile cal=segmult nl=63 grp=1 | BEST cold25=16.11
+[138]   4418s score= 15.32  cold25=15.32 seen25=42.24 all25=31.84 all_rmsle=1.264 | obj=quantile cal=none nl=127 grp=2 | BEST cold25=16.11
+[139]   4428s score=-88.45  cold25=11.55 seen25=34.49 all25=25.64 all_rmsle=1.325 | obj=l2 cal=none nl=31 grp=1 | BEST cold25=16.11
+[140]   4464s score= 15.44  cold25=15.44 seen25=43.92 all25=32.93 all_rmsle=1.381 | obj=quantile cal=segmult nl=255 grp=1 | BEST cold25=16.11
+[141]   4476s score= 10.77  cold25=10.77 seen25=39.68 all25=28.52 all_rmsle=1.270 | obj=l2 cal=segmult nl=63 grp=2 | BEST cold25=16.11
+[142]   4525s score= 13.32  cold25=13.32 seen25=39.84 all25=29.60 all_rmsle=1.255 | obj=huber cal=iso_segmult nl=63 grp=3 | BEST cold25=16.11
+[143]   4547s score= 16.53  cold25=16.53 seen25=37.69 all25=29.52 all_rmsle=1.316 | obj=quantile cal=none nl=127 grp=1 | BEST cold25=16.53
+[144]   4574s score= 14.44  cold25=14.44 seen25=45.04 all25=33.23 all_rmsle=1.334 | obj=quantile cal=segmult nl=63 grp=1 | BEST cold25=16.53
+[145]   4583s score= 12.99  cold25=12.99 seen25=42.59 all25=31.16 all_rmsle=1.254 | obj=l2 cal=iso_segmult nl=127 grp=2 | BEST cold25=16.53
+[146]   4604s score= 12.38  cold25=12.38 seen25=40.25 all25=29.49 all_rmsle=1.283 | obj=l2 cal=iso_segmult nl=63 grp=3 | BEST cold25=16.53
+[147]   4611s score=-89.64  cold25=10.36 seen25=32.21 all25=23.77 all_rmsle=1.314 | obj=l2 cal=iso nl=31 grp=1 | BEST cold25=16.53
+[148]   4640s score= 14.63  cold25=14.63 seen25=46.61 all25=34.26 all_rmsle=1.287 | obj=huber cal=segmult nl=255 grp=3 | BEST cold25=16.53
+[149]   4670s score= 14.20  cold25=14.20 seen25=48.00 all25=34.95 all_rmsle=1.291 | obj=quantile cal=segmult nl=63 grp=3 | BEST cold25=16.53
+[150]   4725s score= 12.96  cold25=12.96 seen25=39.80 all25=29.44 all_rmsle=1.275 | obj=huber cal=none nl=63 grp=2 | BEST cold25=16.53
+[151]   4745s score= 12.58  cold25=12.58 seen25=39.75 all25=29.26 all_rmsle=1.274 | obj=l2 cal=segmult nl=31 grp=2 | BEST cold25=16.53
+[152]   4766s score= 13.22  cold25=13.22 seen25=38.69 all25=28.85 all_rmsle=1.334 | obj=l2 cal=iso_segmult nl=31 grp=3 | BEST cold25=16.53
+[153]   4794s score= 13.14  cold25=13.14 seen25=40.05 all25=29.66 all_rmsle=1.318 | obj=l2 cal=iso_segmult nl=31 grp=2 | BEST cold25=16.53
+[154]   4805s score=-87.03  cold25=12.97 seen25=30.16 all25=23.52 all_rmsle=1.285 | obj=l2 cal=iso nl=63 grp=1 | BEST cold25=16.53
+[155]   4826s score= 12.58  cold25=12.58 seen25=47.03 all25=33.73 all_rmsle=1.320 | obj=quantile cal=segmult nl=255 grp=3 | BEST cold25=16.53
+[156]   4847s score= 13.70  cold25=13.70 seen25=41.10 all25=30.52 all_rmsle=1.307 | obj=quantile cal=none nl=31 grp=1 | BEST cold25=16.53
+[157]   4872s score= 13.48  cold25=13.48 seen25=40.95 all25=30.34 all_rmsle=1.248 | obj=huber cal=none nl=127 grp=2 | BEST cold25=16.53
+[158]   4884s score= 14.25  cold25=14.25 seen25=41.84 all25=31.19 all_rmsle=1.231 | obj=l2 cal=iso_segmult nl=255 grp=3 | BEST cold25=16.53
+[159]   4915s score=-86.33  cold25=13.67 seen25=32.90 all25=25.48 all_rmsle=1.326 | obj=huber cal=iso nl=31 grp=1 | BEST cold25=16.53
+[160]   4950s score=-86.34  cold25=13.66 seen25=33.30 all25=25.72 all_rmsle=1.245 | obj=quantile cal=iso nl=255 grp=3 | BEST cold25=16.53
+[161]   4963s score=-88.24  cold25=11.76 seen25=34.70 all25=25.84 all_rmsle=1.285 | obj=l2 cal=iso nl=63 grp=2 | BEST cold25=16.53
+[162]   4982s score= 16.46  cold25=16.46 seen25=46.19 all25=34.71 all_rmsle=1.265 | obj=quantile cal=segmult nl=127 grp=2 | BEST cold25=16.53
+[163]   5014s score= 11.96  cold25=11.96 seen25=45.54 all25=32.58 all_rmsle=1.245 | obj=huber cal=segmult nl=127 grp=3 | BEST cold25=16.53
+[164]   5132s score= 13.44  cold25=13.44 seen25=42.61 all25=31.35 all_rmsle=1.259 | obj=quantile cal=iso_segmult nl=255 grp=2 | BEST cold25=16.53
+[165]   5159s score= 13.53  cold25=13.53 seen25=34.52 all25=26.42 all_rmsle=1.272 | obj=l2 cal=iso_segmult nl=255 grp=1 | BEST cold25=16.53
+[166]   5175s score=-88.04  cold25=11.96 seen25=33.67 all25=25.29 all_rmsle=1.265 | obj=l2 cal=iso nl=255 grp=1 | BEST cold25=16.53
+[167]   5207s score= 14.58  cold25=14.58 seen25=36.22 all25=27.86 all_rmsle=1.273 | obj=huber cal=none nl=255 grp=1 | BEST cold25=16.53
+[168]   5224s score= 12.71  cold25=12.71 seen25=38.68 all25=28.65 all_rmsle=1.302 | obj=quantile cal=iso_segmult nl=63 grp=1 | BEST cold25=16.53
+[169]   5259s score= 13.93  cold25=13.93 seen25=41.13 all25=30.62 all_rmsle=1.299 | obj=huber cal=none nl=127 grp=2 | BEST cold25=16.53
+[170]   5319s score= 12.40  cold25=12.40 seen25=37.02 all25=27.51 all_rmsle=1.248 | obj=l2 cal=none nl=127 grp=2 | BEST cold25=16.53
+[171]   5372s score=-86.76  cold25=13.24 seen25=33.51 all25=25.68 all_rmsle=1.314 | obj=quantile cal=iso nl=63 grp=1 | BEST cold25=16.53
+[172]   5395s score= 14.43  cold25=14.43 seen25=43.71 all25=32.40 all_rmsle=1.292 | obj=quantile cal=none nl=63 grp=2 | BEST cold25=16.53
+[173]   5445s score= 17.35  cold25=17.35 seen25=44.05 all25=33.74 all_rmsle=1.309 | obj=quantile cal=segmult nl=127 grp=1 | BEST cold25=17.35
+[174]   5473s score= 12.22  cold25=12.22 seen25=42.36 all25=30.72 all_rmsle=1.254 | obj=quantile cal=iso_segmult nl=255 grp=3 | BEST cold25=17.35
+[175]   5499s score= 14.22  cold25=14.22 seen25=35.77 all25=27.45 all_rmsle=1.251 | obj=l2 cal=iso nl=63 grp=2 | BEST cold25=17.35
+[176]   5515s score= 13.50  cold25=13.50 seen25=34.79 all25=26.57 all_rmsle=1.337 | obj=l2 cal=iso_segmult nl=63 grp=1 | BEST cold25=17.35
+[177]   5533s score= 12.18  cold25=12.18 seen25=39.96 all25=29.23 all_rmsle=1.320 | obj=huber cal=none nl=31 grp=3 | BEST cold25=17.35
+[178]   5546s score= 11.49  cold25=11.49 seen25=39.17 all25=28.48 all_rmsle=1.295 | obj=quantile cal=iso_segmult nl=31 grp=1 | BEST cold25=17.35
+[179]   5608s score= 14.17  cold25=14.17 seen25=39.20 all25=29.53 all_rmsle=1.252 | obj=huber cal=none nl=127 grp=3 | BEST cold25=17.35
+[180]   5661s score= 13.40  cold25=13.40 seen25=39.08 all25=29.17 all_rmsle=1.270 | obj=huber cal=iso_segmult nl=255 grp=1 | BEST cold25=17.35
+[181]   5728s score= 13.70  cold25=13.70 seen25=44.85 all25=32.82 all_rmsle=1.319 | obj=quantile cal=none nl=127 grp=2 | BEST cold25=17.35
+[182]   5790s score= 13.62  cold25=13.62 seen25=34.94 all25=26.71 all_rmsle=1.227 | obj=l2 cal=iso nl=255 grp=2 | BEST cold25=17.35
+[183]   5829s score= 14.56  cold25=14.56 seen25=44.79 all25=33.12 all_rmsle=1.319 | obj=quantile cal=none nl=127 grp=3 | BEST cold25=17.35
+[184]   5925s score= 14.25  cold25=14.25 seen25=44.58 all25=32.87 all_rmsle=1.311 | obj=quantile cal=segmult nl=255 grp=1 | BEST cold25=17.35
+[185]   5949s score= 15.13  cold25=15.13 seen25=40.96 all25=30.99 all_rmsle=1.242 | obj=huber cal=iso_segmult nl=255 grp=2 | BEST cold25=17.35
+[186]   5958s score= 13.46  cold25=13.46 seen25=38.14 all25=28.61 all_rmsle=1.294 | obj=l2 cal=segmult nl=127 grp=1 | BEST cold25=17.35
+[187]   6034s score= 13.37  cold25=13.37 seen25=41.25 all25=30.49 all_rmsle=1.301 | obj=quantile cal=iso_segmult nl=255 grp=2 | BEST cold25=17.35
+[188]   6049s score= 13.65  cold25=13.65 seen25=36.47 all25=27.66 all_rmsle=1.247 | obj=l2 cal=iso nl=127 grp=1 | BEST cold25=17.35
+[189]   6064s score= 12.84  cold25=12.84 seen25=35.91 all25=27.00 all_rmsle=1.274 | obj=l2 cal=segmult nl=127 grp=1 | BEST cold25=17.35
+[190]   6102s score= 13.97  cold25=13.97 seen25=40.27 all25=30.11 all_rmsle=1.271 | obj=l2 cal=iso_segmult nl=127 grp=2 | BEST cold25=17.35
+[191]   6116s score=-89.07  cold25=10.93 seen25=33.64 all25=24.87 all_rmsle=1.335 | obj=huber cal=iso nl=31 grp=1 | BEST cold25=17.35
+[192]   6141s score= 11.79  cold25=11.79 seen25=35.83 all25=26.55 all_rmsle=1.309 | obj=l2 cal=none nl=31 grp=3 | BEST cold25=17.35
+[193]   6170s score= 14.41  cold25=14.41 seen25=43.09 all25=32.02 all_rmsle=1.286 | obj=huber cal=segmult nl=31 grp=1 | BEST cold25=17.35
+[194]   6180s score= 13.71  cold25=13.71 seen25=36.50 all25=27.70 all_rmsle=1.325 | obj=quantile cal=iso nl=31 grp=2 | BEST cold25=17.35
+[195]   6202s score= 10.91  cold25=10.91 seen25=38.82 all25=28.04 all_rmsle=1.347 | obj=l2 cal=iso_segmult nl=127 grp=1 | BEST cold25=17.35
+[196]   6214s score= 12.52  cold25=12.52 seen25=37.65 all25=27.95 all_rmsle=1.319 | obj=quantile cal=iso_segmult nl=127 grp=1 | BEST cold25=17.35
+[197]   6260s score= 13.87  cold25=13.87 seen25=40.75 all25=30.37 all_rmsle=1.229 | obj=l2 cal=iso_segmult nl=127 grp=3 | BEST cold25=17.35
+[198]   6278s score= 13.41  cold25=13.41 seen25=40.81 all25=30.23 all_rmsle=1.247 | obj=l2 cal=iso_segmult nl=127 grp=1 | BEST cold25=17.35
+[199]   6294s score= 13.53  cold25=13.53 seen25=35.02 all25=26.72 all_rmsle=1.301 | obj=huber cal=iso nl=127 grp=1 | BEST cold25=17.35
+[200]   6320s score= 13.01  cold25=13.01 seen25=36.29 all25=27.30 all_rmsle=1.265 | obj=l2 cal=iso nl=63 grp=2 | BEST cold25=17.35
+[201]   6337s score=-87.55  cold25=12.45 seen25=32.37 all25=24.68 all_rmsle=1.266 | obj=l2 cal=iso nl=255 grp=1 | BEST cold25=17.35
+[202]   6359s score= 15.09  cold25=15.09 seen25=40.78 all25=30.86 all_rmsle=1.330 | obj=huber cal=iso_segmult nl=31 grp=3 | BEST cold25=17.35
+[203]   6377s score= 15.33  cold25=15.33 seen25=44.92 all25=33.50 all_rmsle=1.318 | obj=huber cal=segmult nl=31 grp=3 | BEST cold25=17.35
+[204]   6417s score= 14.03  cold25=14.03 seen25=35.04 all25=26.93 all_rmsle=1.251 | obj=huber cal=iso nl=255 grp=3 | BEST cold25=17.35
+[205]   6451s score= 14.49  cold25=14.49 seen25=40.67 all25=30.56 all_rmsle=1.220 | obj=huber cal=iso_segmult nl=127 grp=3 | BEST cold25=17.35
+[206]   6514s score= 13.10  cold25=13.10 seen25=47.70 all25=34.34 all_rmsle=1.251 | obj=quantile cal=segmult nl=255 grp=3 | BEST cold25=17.35
+[207]   6571s score= 13.27  cold25=13.27 seen25=37.49 all25=28.14 all_rmsle=1.263 | obj=huber cal=iso nl=255 grp=3 | BEST cold25=17.35
+[208]   6617s score= 11.46  cold25=11.46 seen25=37.75 all25=27.60 all_rmsle=1.293 | obj=quantile cal=iso nl=31 grp=3 | BEST cold25=17.35
+[209]   6680s score= 12.30  cold25=12.30 seen25=36.85 all25=27.37 all_rmsle=1.282 | obj=huber cal=iso nl=63 grp=3 | BEST cold25=17.35
+[210]   6691s score=-88.08  cold25=11.92 seen25=34.39 all25=25.72 all_rmsle=1.332 | obj=l2 cal=iso nl=31 grp=1 | BEST cold25=17.35
+[211]   6704s score= 12.90  cold25=12.90 seen25=40.29 all25=29.71 all_rmsle=1.311 | obj=l2 cal=segmult nl=63 grp=3 | BEST cold25=17.35
+[212]   6727s score= 13.97  cold25=13.97 seen25=39.82 all25=29.84 all_rmsle=1.251 | obj=huber cal=none nl=255 grp=2 | BEST cold25=17.35
+[213]   6749s score= 15.24  cold25=15.24 seen25=43.90 all25=32.83 all_rmsle=1.329 | obj=quantile cal=none nl=127 grp=1 | BEST cold25=17.35
+[214]   6789s score= 13.48  cold25=13.48 seen25=45.37 all25=33.05 all_rmsle=1.287 | obj=huber cal=segmult nl=31 grp=2 | BEST cold25=17.35
+[215]   6801s score= 14.37  cold25=14.37 seen25=38.61 all25=29.25 all_rmsle=1.300 | obj=l2 cal=segmult nl=255 grp=1 | BEST cold25=17.35
+[216]   6814s score= 11.86  cold25=11.86 seen25=35.34 all25=26.27 all_rmsle=1.279 | obj=l2 cal=iso nl=63 grp=2 | BEST cold25=17.35
+[217]   6849s score= 12.89  cold25=12.89 seen25=40.70 all25=29.96 all_rmsle=1.276 | obj=huber cal=none nl=127 grp=3 | BEST cold25=17.35
+[218]   6900s score= 13.84  cold25=13.84 seen25=39.74 all25=29.74 all_rmsle=1.274 | obj=huber cal=none nl=63 grp=2 | BEST cold25=17.35
+[219]   6918s score= 14.04  cold25=14.04 seen25=34.66 all25=26.70 all_rmsle=1.277 | obj=huber cal=iso_segmult nl=255 grp=1 | BEST cold25=17.35
+[220]   6962s score= 16.08  cold25=16.08 seen25=43.16 all25=32.70 all_rmsle=1.289 | obj=quantile cal=none nl=127 grp=1 | BEST cold25=17.35
+[221]   6995s score= 14.02  cold25=14.02 seen25=45.38 all25=33.27 all_rmsle=1.253 | obj=huber cal=segmult nl=63 grp=2 | BEST cold25=17.35
+[222]   7044s score= 11.91  cold25=11.91 seen25=37.73 all25=27.76 all_rmsle=1.307 | obj=quantile cal=iso nl=63 grp=2 | BEST cold25=17.35
+[223]   7063s score= 12.41  cold25=12.41 seen25=36.23 all25=27.04 all_rmsle=1.329 | obj=quantile cal=iso nl=31 grp=2 | BEST cold25=17.35
+[224]   7121s score= 13.59  cold25=13.59 seen25=45.91 all25=33.43 all_rmsle=1.298 | obj=quantile cal=none nl=31 grp=3 | BEST cold25=17.35
+[225]   7185s score= 13.68  cold25=13.68 seen25=40.19 all25=29.95 all_rmsle=1.398 | obj=quantile cal=iso_segmult nl=63 grp=3 | BEST cold25=17.35
+[226]   7219s score= 13.13  cold25=13.13 seen25=36.11 all25=27.24 all_rmsle=1.289 | obj=quantile cal=iso nl=63 grp=1 | BEST cold25=17.35
+
+[search done] 227 trials in 7219s. BEST val_sel cold Cov@25=17.35 (all=33.74)
+BEST cfg: {"num_leaves": 127, "min_child": 200, "lr": 0.07, "subsample": 0.7, "colsample": 1.0, "reg_alpha": 0, "reg_lambda": 0, "max_depth": 12, "objective": "quantile", "calib": "segmult", "groups": ["direct"]}

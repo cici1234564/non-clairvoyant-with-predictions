@@ -1,0 +1,72 @@
+{
+ "cfg": {
+  "num_leaves": 127,
+  "min_child": 200,
+  "lr": 0.07,
+  "subsample": 0.7,
+  "colsample": 1.0,
+  "reg_alpha": 0,
+  "reg_lambda": 0,
+  "max_depth": 12,
+  "objective": "quantile",
+  "calib": "segmult",
+  "groups": [
+   "direct"
+  ]
+ },
+ "best_iter": 1427,
+ "val_sel": {
+  "all": {
+   "n": 43942,
+   "cov25": 33.74,
+   "cov50": 54.27,
+   "rmsle": 1.309,
+   "rho": 0.782
+  },
+  "seen": {
+   "n": 26975,
+   "cov25": 44.05,
+   "cov50": 67.22,
+   "rmsle": 0.82,
+   "rho": 0.902
+  },
+  "cold": {
+   "n": 16967,
+   "cov25": 17.35,
+   "cov50": 33.69,
+   "rmsle": 1.836,
+   "rho": 0.584
+  }
+ },
+ "test": {
+  "all": {
+   "n": 109854,
+   "cov25": 30.89,
+   "cov50": 49.11,
+   "rmsle": 1.513,
+   "rho": 0.668
+  },
+  "seen": {
+   "n": 57102,
+   "cov25": 44.45,
+   "cov50": 67.01,
+   "rmsle": 0.925,
+   "rho": 0.874
+  },
+  "cold": {
+   "n": 52752,
+   "cov25": 16.2,
+   "cov50": 29.73,
+   "rmsle": 1.961,
+   "rho": 0.429
+  }
+ },
+ "pathb_anchor": {
+  "base_all_cov25": 29.11,
+  "base_new_cov25": 12.74,
+  "metacal_all_cov25": 29.92,
+  "metacal_new_cov25": 12.74
+ },
+ "cold_delta_vs_pathb": 3.46,
+ "leakage_flag": false
+}
