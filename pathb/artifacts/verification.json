@@ -1,0 +1,80 @@
+{
+  "V1": {
+    "pass_": true,
+    "train": [
+      542323.0,
+      5020578.0
+    ],
+    "val": [
+      5020579.0,
+      5764865.0
+    ],
+    "test": [
+      5764873.0,
+      6451081.0
+    ],
+    "note": "train.max < val.min and val.max < test.min (ordered, non-overlapping)"
+  },
+  "V2": {
+    "pass_": true,
+    "frac": 1.0,
+    "note": "mean(r_j[idx_te] >= t_val) must equal 1.0 (the bug fix)"
+  },
+  "V3": {
+    "pass_": true,
+    "target_in_features": false,
+    "causal_shift1_ok": true,
+    "first_group_row_uses_prior": true,
+    "calibrator_val_only": true,
+    "note": "target excluded; gro_hist_mean == strictly-prior expanding mean (shift1); isotonic fit on validation-sized vector only."
+  },
+  "V4": {
+    "pass_": true,
+    "n_test": 109854,
+    "rec_ge5_pct": 47.50304950206638,
+    "new_eq0_pct": 48.02009940466437,
+    "resid_1to4_pct": 4.476851093269248,
+    "expected": {
+      "n_test": 109854,
+      "rec": 47.5,
+      "new": 48.0,
+      "resid": 4.5
+    },
+    "note": "n_test=109,854 (exp 109,854); Rec(>=5)=47.5% (exp 47.5); New(==0)=48.0% (exp 48.0); resid(1-4)=4.5% (exp 4.5)"
+  },
+  "V5": {
+    "pass_": true,
+    "run1_cov25": 29.112276293990202,
+    "run2_cov25": 29.112276293990202,
+    "two_runs_identical": true,
+    "base_cov25_anchor": 29.112276293990202,
+    "reproduced_33_4": false,
+    "decision": "deterministic_existing",
+    "note": "two seeded base runs identical -> deterministic; new anchor X=29.1123; 33.4 NOT reproduced (superseded by bug fix)"
+  },
+  "V6": {
+    "pass_": true,
+    "metacal_all_cov25": 29.915160121615962,
+    "base_all_cov25": 29.112276293990202,
+    "gain_pp": 0.8028838276257595,
+    "flag_gt_6pp": false,
+    "spearman_base_vs_metacal": 0.9998217989962037,
+    "note": "Meta+Cal Cov@25 >= base, gain modest (<=6pp), isotonic monotone => rank ~unchanged"
+  },
+  "V7": {
+    "pass_": true,
+    "n_checked": 300,
+    "max_abs_diff": 0.0,
+    "note": "p_star == max_t e_t - min_t s_t (fork-join span), not max_t d_t"
+  },
+  "V8": {
+    "pass_": true,
+    "guard_max_abs": 0.0,
+    "m5_differs_from_metacal": true,
+    "srpt_normalization": "ratio_vs_opt is total/SRPT",
+    "makespan_norm": "ratio = makespan / McNaughton OPT_pre",
+    "maxstretch_norm": "rho = S / offline S* (EDF bisection on true sizes)",
+    "note": "ranking source == uncalibrated Meta base; normalizations confirmed; full table regenerated"
+  },
+  "ALL_PASS": true
+}

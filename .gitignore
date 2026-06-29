@@ -1,0 +1,11 @@
+# Large ATLAS/PAI trace data — committed on `main`, pulled into the working
+# tree at runtime (see REPORT.md "Reproduce"). Not duplicated on this branch.
+pai_*.csv
+pai_*.tar.gz
+
+# Regenerable feature cache (rebuild with pathb/build_data.py)
+pathb/cache/
+
+# Python bytecode
+__pycache__/
+*.pyc
