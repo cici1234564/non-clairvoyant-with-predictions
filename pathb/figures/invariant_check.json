@@ -1,0 +1,7 @@
+{
+ "I1_order": true,
+ "I1_test_window_frac": 1.0,
+ "align_len": true,
+ "align_yte": true,
+ "I2_I3_I4": "inherited: features submit-time + train-only stats + shift(1) histories; verified in Path B V1-V8 (V3 leakage PASS). No data refit here."
+}
