@@ -1,0 +1,32 @@
+[      6s] S2 train-only sig-count check: PASS
+[    253s] TC|All|1 done
+[    496s] TC|All|2 done
+[    739s] TC|All|3 done
+[    977s] TC|All|4 done
+[   1218s] TC|All|5 done
+[   1463s] TC|All|6 done
+[   1704s] TC|All|7 done
+[   1954s] TC|All|8 done
+[   2192s] TC|All|9 done
+[   2437s] TC|Seen>=1|0 done
+[   2683s] TC|Seen>=1|1 done
+[   2916s] TC|Seen>=1|2 done
+[   3154s] TC|Seen>=1|3 done
+[   3412s] TC|Seen>=1|4 done
+[   3677s] TC|Seen>=1|5 done
+[   3945s] TC|Seen>=1|6 done
+[   4204s] TC|Seen>=1|7 done
+[   4448s] TC|Seen>=1|8 done
+[   4694s] TC|Seen>=1|9 done
+[   4937s] TC|Seen>=5|0 done
+[   5174s] TC|Seen>=5|1 done
+[   5408s] TC|Seen>=5|2 done
+[   5648s] TC|Seen>=5|3 done
+[   5887s] TC|Seen>=5|4 done
+[   6131s] TC|Seen>=5|5 done
+[   6373s] TC|Seen>=5|6 done
+[   6623s] TC|Seen>=5|7 done
+[   6856s] TC|Seen>=5|8 done
+[   7114s] TC|Seen>=5|9 done
+[   7114s] ALL SIMS DONE; writing report
+[   7114s] WROTE pathb/sched_full_REPORT.md  (90 cells)

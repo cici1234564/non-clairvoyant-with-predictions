@@ -1,0 +1,22 @@
+  seed=0  M5 PRR/SRPT=2.073  (164s)
+  seed=1  M5 PRR/SRPT=2.070  (330s)
+  seed=2  M5 PRR/SRPT=2.104  (495s)
+  seed=3  M5 PRR/SRPT=2.066  (665s)
+  seed=4  M5 PRR/SRPT=2.137  (834s)
+  seed=5  M5 PRR/SRPT=2.084  (998s)
+  seed=6  M5 PRR/SRPT=2.168  (1167s)
+  seed=7  M5 PRR/SRPT=2.119  (1341s)
+  seed=8  M5 PRR/SRPT=2.064  (1509s)
+  seed=9  M5 PRR/SRPT=2.089  (1681s)
+
+#### CORRECTED total completion (random multi-seed, n=10k, 10 seeds) ####
+  baselines /SRPT: SJF=1.000.. mean SJF=1.000, RR=1.972±0.001, FIFO=5.721±0.138
+  method       SPJF/SRPT       PRR/SRPT   PRR x vs FIFO  <RR?
+  M1       2.610±0.061  2.440±0.048   2.34±0.04     no
+  M3       3.089±0.103  2.498±0.058   2.29±0.03     no
+  M4       2.832±0.075  2.476±0.047   2.31±0.03     no
+  M5       2.062±0.039  2.097±0.033   2.73±0.05     no
+  M6       3.026±0.090  2.554±0.055   2.24±0.03     no
+  M7       2.898±0.085  2.522±0.053   2.27±0.03     no
+
+[done] 1681s -> data_total_completion_multiseed.csv, tc_multiseed.json

@@ -250,8 +250,12 @@ def evaluate_total_completion_all_methods(
     test_df['submit_time'] = test_df['submit_time'] - t0
 
     if sample_size is not None and sample_size < len(test_df):
-        np.random.seed(seed)
-        test_df = test_df.iloc[:sample_size].copy()
+        # FIX: draw a RANDOM seeded subsample. The old code took the first
+        # sample_size jobs by submit_time (an unrepresentative early-time prefix)
+        # and the np.random.seed above was a no-op; `seed` now controls the sample.
+        rng = np.random.RandomState(seed)
+        pick = np.sort(rng.choice(len(test_df), size=sample_size, replace=False))
+        test_df = test_df.iloc[pick].copy()
 
     selected_original_indices = test_df['original_idx'].values
 

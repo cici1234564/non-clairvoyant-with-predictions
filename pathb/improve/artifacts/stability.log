@@ -1,0 +1,57 @@
+[stability] n_full=109854, 10 seeds; RANDOM subsamples
+  n=10000 seed=0  RR=1.972  PRR(.7)rho=2.079  (312s)
+  n=10000 seed=1  RR=1.972  PRR(.7)rho=2.042  (630s)
+  n=10000 seed=2  RR=1.970  PRR(.7)rho=2.062  (941s)
+  n=10000 seed=3  RR=1.973  PRR(.7)rho=2.085  (1257s)
+  n=10000 seed=4  RR=1.971  PRR(.7)rho=2.131  (1570s)
+  n=10000 seed=5  RR=1.970  PRR(.7)rho=2.028  (1891s)
+  n=10000 seed=6  RR=1.972  PRR(.7)rho=2.041  (2211s)
+  n=10000 seed=7  RR=1.971  PRR(.7)rho=2.161  (2533s)
+  n=10000 seed=8  RR=1.971  PRR(.7)rho=2.116  (2867s)
+  n=10000 seed=9  RR=1.973  PRR(.7)rho=2.000  (3189s)
+  n=5000 seed=0  PRR(.7)rho=2.077  (3199s)
+  n=5000 seed=1  PRR(.7)rho=1.978  (3209s)
+  n=5000 seed=2  PRR(.7)rho=2.042  (3219s)
+  n=5000 seed=3  PRR(.7)rho=2.079  (3229s)
+  n=5000 seed=4  PRR(.7)rho=2.122  (3239s)
+  n=5000 seed=5  PRR(.7)rho=2.032  (3249s)
+  n=5000 seed=6  PRR(.7)rho=2.036  (3260s)
+  n=5000 seed=7  PRR(.7)rho=1.976  (3270s)
+  n=5000 seed=8  PRR(.7)rho=2.065  (3280s)
+  n=5000 seed=9  PRR(.7)rho=2.006  (3291s)
+  n=20000 seed=0  PRR(.7)rho=2.062  (3519s)
+  n=20000 seed=1  PRR(.7)rho=2.137  (3744s)
+  n=20000 seed=2  PRR(.7)rho=2.125  (3957s)
+  n=20000 seed=3  PRR(.7)rho=2.091  (4179s)
+  n=20000 seed=4  PRR(.7)rho=2.108  (4397s)
+  n=20000 seed=5  PRR(.7)rho=2.090  (4615s)
+  n=20000 seed=6  PRR(.7)rho=2.070  (4833s)
+  n=20000 seed=7  PRR(.7)rho=2.094  (5041s)
+  n=20000 seed=8  PRR(.7)rho=2.130  (5256s)
+  n=20000 seed=9  PRR(.7)rho=2.076  (5464s)
+
+#### TABLE 1: PRR-M5, lambda=0.7, n=10000, 10 RANDOM seeds ####
+  PRR-M5 rho_TC : mean=2.075  std=0.047  min=2.000  max=2.161
+  RR rho_TC     : mean=1.971  std=0.001
+  (original deterministic first-10k-by-time prefix: rho=2.288)
+
+#### TABLE 2: lambda sweep, n=10000, 10 seeds ####
+   lam    rho_TC mean±std   imp vs FIFO % mean±std  < RR?
+   0.1    2.021 ± 0.010         65.1 ± 0.9         no
+   0.2    2.073 ± 0.015         64.2 ± 0.9         no
+   0.3    2.124 ± 0.021         63.3 ± 0.8         no
+   0.4    2.158 ± 0.030         62.8 ± 0.7         no
+   0.5    2.156 ± 0.039         62.8 ± 0.5         no
+   0.6    2.125 ± 0.045         63.3 ± 0.5         no
+   0.7    2.075 ± 0.047         64.2 ± 0.4         no
+   0.8    2.023 ± 0.048         65.1 ± 0.4         no
+   0.9    1.984 ± 0.049         65.8 ± 0.4         no
+  (RR baseline mean rho = 1.971)
+
+#### TABLE 3: sample-size effect, lambda=0.7, 10 seeds ####
+        n    rho_TC mean±std     min     max  prefix(orig)
+     5000    2.041 ± 0.044    1.976   2.122         1.736
+    10000    2.075 ± 0.047    2.000   2.161         2.288
+    20000    2.098 ± 0.025    2.062   2.137         2.317
+
+[done] 5737s -> pathb/improve/artifacts/sched_stability.json

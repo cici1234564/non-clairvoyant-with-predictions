@@ -1,0 +1,21 @@
+I1 re-check: True
+
+=== FEATURE ABLATION (plain LGBM, test Cov@25) — prose 15.1/21.4/27.9 ===
+  resources+temporal       (14 feats): 15.5
+  +signature+group         (28 feats): 25.9   (+10.4)
+  +per-user history (ALL)  (33 feats): 23.8   (+-2.1)   <- plain all-feature base
+
+=== WITHIN-TRAIN 5-fold CV Cov@25 — prose 70.5 ===
+  mean=70.4  folds=['70.5', '70.5', '70.2', '70.2', '70.5']
+
+=== SAME-ERA control (train on early train) — prose 62.1/60.1/27.1 ===
+  random same-era holdout : 70.5
+  last-1/7 pseudo-test     : 60.7
+  real future test         : 24.5
+  within-era drop = 9.8pp ; far-future drop = 46.0pp
+
+=== seen/unseen-user (plain LGBM) — prose 28.4/5.9 ===
+  seen-user Cov@25   = 24.1
+  unseen-user Cov@25 = 5.2  (n=1977, 1.8%)
+
+Reference: my Meta base test Cov@25 = 29.1 ; Meta+Cal = 29.9
